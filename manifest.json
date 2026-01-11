@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Instagram Reels Auto Scroller",
+    "version": "1.0",
+    "description": "Automatically scrolls to the next Reel when the current one finishes.",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://www.instagram.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.instagram.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
