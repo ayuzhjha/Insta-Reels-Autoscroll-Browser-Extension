@@ -20,6 +20,5 @@ Yo, welcome to the repo. This is a chill Chrome extension that automatically scr
 - Written in vanilla JS, no heavy frameworks.
 
 ## Contributing
-Assert dominance by fixing my bugs. PRs welcome. 
 
 Enjoy the doomscroll. ✌️
